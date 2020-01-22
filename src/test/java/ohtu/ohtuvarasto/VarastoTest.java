@@ -125,6 +125,7 @@ public class VarastoTest {
 
     @Test
     public void merkkijonoEsitys() {
+        // Testataan tässä merkkijonomuunnosta ;)
         varasto.lisaaVarastoon(3);
         String merkkijono = "saldo = 3.0, vielä tilaa 7.0";
         String tulos = varasto.toString();
