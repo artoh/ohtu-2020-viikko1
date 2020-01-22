@@ -126,7 +126,7 @@ public class VarastoTest {
     @Test
     public void merkkijonoEsitys() {
         varasto.lisaaVarastoon(3);
-        String merkkijono = "saldo = 3.0, vielä tilaa 7.0";
+        String merkkijono = "saldo = 3.0, vielä tilaa 7.0 LÄL LÄL LÄÄ";
         String tulos = varasto.toString();
         assertEquals(merkkijono, tulos);
     }
