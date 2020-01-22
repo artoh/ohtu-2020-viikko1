@@ -40,7 +40,7 @@ apply plugin: 'jacoco'
 
 jacocoTestReport {
     reports {
-        xml.enable true
-        html.enable true
+        xml.enabled true
+        html.enabled true
     }
 }
