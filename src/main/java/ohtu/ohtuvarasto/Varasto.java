@@ -22,15 +22,6 @@ public class Varasto {
         setTilavuus(tilavuus);
         this.saldo = 0;
         lisaaVarastoon(alkuSaldo);
-
-        for(int i=0; 
-        i<1;
-        i++) {
-            for(int j=0; j<10;j++) 
-{
-                //// MOI    
-            }
-        }
         
     }
 
