@@ -18,7 +18,8 @@ public class Varasto {
     }
 
 
-    public Varasto(double tilavuus, double alkuSaldo) { // kuormitetaan
+    public Varasto(double tilavuus, double alkuSaldo) 
+    { // kuormitetaan
         setTilavuus(tilavuus);
         this.saldo = 0;
         lisaaVarastoon(alkuSaldo);
