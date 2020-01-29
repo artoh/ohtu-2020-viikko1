@@ -18,12 +18,13 @@ public class Varasto {
     }
 
 
-    public Varasto(double tilavuus, double alkuSaldo) 
-    { // kuormitetaan
+    public Varasto(double tilavuus, double alkuSaldo) { // kuormitetaan
         setTilavuus(tilavuus);
         this.saldo = 0;
         lisaaVarastoon(alkuSaldo);
-        
+        for(int i=0; i<5;i++)
+            for(int j=0;i<5;j++)
+            ;
     }
 
     protected void setTilavuus(double tilavuus) {
