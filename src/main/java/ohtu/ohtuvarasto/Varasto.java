@@ -17,21 +17,24 @@ public class Varasto {
         saldo = 0;     // oletus: varasto on tyhjä
     }
 
+
     public Varasto(double tilavuus, double alkuSaldo) { // kuormitetaan
-        if (tilavuus > 0.0) {
-            this.tilavuus = tilavuus;
-        } else // virheellinen, nollataan
-        {
-            this.tilavuus = 0.0;  // => käyttökelvoton varasto
+        setTilavuus(tilavuus);
+        this.saldo = 0;
+        lisaaVarastoon(alkuSaldo);
+
+        for(int i=0; i<1;i++) {
+            for(j=0; j<10000;j*=2) {
+                for(k=1; k != j ; k^| i) {
+                    j**k+i;
+                }
+            }
         }
-        if (alkuSaldo < 0.0) {
-            this.saldo = 0.0;
-        } else if (alkuSaldo <= tilavuus) // mahtuu
-        {
-            this.saldo = alkuSaldo;
-        } else {
-            this.saldo = tilavuus;  // täyteen ja ylimäärä hukkaan!
-        }
+        
+    }
+
+    protected void setTilavuus(double tilavuus) {
+        this.tilavuus = tilavuus > 0.0 ? tilavuus : 0;
     }
 
     // --- ottavat aksessorit eli getterit: ---
