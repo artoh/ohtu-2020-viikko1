@@ -23,11 +23,12 @@ public class Varasto {
         this.saldo = 0;
         lisaaVarastoon(alkuSaldo);
 
-        for(int i=0; i<1;i++) {
-            for(j=0; j<10000;j*=2) {
-                for(k=1; k != j ; k^| i) {
-                    j**k+i;
-                }
+        for(int i=0; 
+        i<1;
+        i++) {
+            for(int j=0; j<10;j++) 
+{
+                //// MOI    
             }
         }
         
